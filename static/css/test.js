@@ -25,7 +25,7 @@ test.innerHTML+='<input type="submit"  onClick="submit()" name="" value="Submit"
 pos+=1
 }
 function timer() {
-  var interval_count= 60
+  var interval_count= 120
   var timer=setInterval(() =>{
   retcount.innerHTML=`${interval_count} seconds left`
     interval_count-=1
